@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>2007_000027.jpg</filename>
+    <path>Segmentation-PascalVOC-export/Annotations/2007_000027.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>486</width>
+        <height>500</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>persion</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>173.49773802895325</xmin>
+        <ymin>102.27272727272727</ymin>
+        <xmax>338.0233505011136</xmax>
+        <ymax>338.7445887445887</ymax>
+    </bndbox>
+</object>
+</annotation>

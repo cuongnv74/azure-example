@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>2007_000039.jpg</filename>
+    <path>Segmentation-PascalVOC-export/Annotations/2007_000039.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>500</width>
+        <height>375</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>box</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>106.12824675324676</xmin>
+        <ymin>88.47402597402598</ymin>
+        <xmax>412.94642857142856</xmax>
+        <ymax>374.5941558441558</ymax>
+    </bndbox>
+</object>
+</annotation>

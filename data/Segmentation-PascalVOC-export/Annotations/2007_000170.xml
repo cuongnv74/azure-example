@@ -1,0 +1,48 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>2007_000170.jpg</filename>
+    <path>Segmentation-PascalVOC-export/Annotations/2007_000170.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>500</width>
+        <height>375</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>box</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>87.45941558441558</xmin>
+        <ymin>92.93831168831169</ymin>
+        <xmax>110.59253246753246</xmax>
+        <ymax>161.9318181818182</ymax>
+    </bndbox>
+</object><object>
+    <name>box</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>57.42694805194805</xmin>
+        <ymin>174.91883116883116</ymin>
+        <xmax>84.61850649350649</xmax>
+        <ymax>223.62012987012986</ymax>
+    </bndbox>
+</object><object>
+    <name>persion</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>0.20292207792207792</xmin>
+        <ymin>21.103896103896105</ymin>
+        <xmax>463.67694805194805</xmax>
+        <ymax>373.78246753246754</ymax>
+    </bndbox>
+</object>
+</annotation>

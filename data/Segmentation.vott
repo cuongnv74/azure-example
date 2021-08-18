@@ -1,0 +1,181 @@
+{
+    "name": "Segmentation",
+    "sourceConnection": {
+        "name": "Conect",
+        "description": "conect wih VOTT",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZjk1OTJmNGNjMzhjNThkNDU3ZWE3N2Y3YjQyYjVmZmI2ZWI5ZDM0NGFkZmQzN2I2ZTVmYTE5ZDYwNTc0NTZkNGI4MmMxMzYwNWI5ZTU3OTVhNWQ2ZjM0OTEzYjNhOWJmNTI3NjE2ZjRlYzdjYzk1NzIzZGM5NGI4ZDU2NjI1Mjc3YTAyOGU3MDBkYTE1ZWVmYzQ5ZmMzN2U1YTliZGM5YzJhY2RkZWFiZjJlMWZkZjkzZmZiYmI5MDEzNjkyNWU2IiwiaXYiOiI2MTg0ZWJlMWM3YTkyY2IyYmJhNjc4Mjc0ZTQ5OGQ2MGEzNTAyODliYzRiYjExNmEifQ=="
+        },
+        "id": "ogl0mGO0-"
+    },
+    "targetConnection": {
+        "name": "Data",
+        "description": "Data to annotation with vott",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNjRmY2Y1Yjk4ZWQzNTUxZTI1MDRjODZjMTUxZTFkNTBkMjIyN2Y0ZTZkYWY4OGZhMzA3OGQwZDM0OWFhNjJmOTQ0ODU2OTU3NGJhYWYwM2ZmMmE0ODg1YmVkYjAxYjY5ODk1NjM5ODY5MzZiY2YxY2ZlOGJjMmI0OTMwODM3NTJhZjgyZjQyOTE1NjgyZGEyMzdmZGMzN2E0MThiMzNkZDIzMDE4ZjY1M2E4YzlmMjYzMzEwZWRkOWM2ZjJjM2M4ZDc5ZTgwM2Y2N2ZjZmZmMTc5ZjNkODlkOGFlZWFkYTYiLCJpdiI6ImFlNDk2ODdjNWZjMzViNTJjZDZhNGJkZWIzOWVmZjQyNTJjZDk0Mzg2OThmODY1MyJ9"
+        },
+        "id": "pzKP58dIE"
+    },
+    "description": "Create dataset for segmentation",
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "_background_",
+            "color": "#015cda"
+        },
+        {
+            "name": "persion",
+            "color": "#5db300"
+        },
+        {
+            "name": "plan",
+            "color": "#e81123"
+        },
+        {
+            "name": "box",
+            "color": "#6917aa"
+        }
+    ],
+    "useSecurityToken": true,
+    "securityToken": "Segmentation Token",
+    "id": "nOF5lClWO",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "pascalVOC",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDdkZWNjZWQ0Nzk1YzIwYTY3ZDgwZDM3NTZhZTZjZTcyNzE3MTg3Y2ZkMTRmNTkyNzY0ZTdiOWU0Y2VmZDU4YmIxZDc5MGZmMTY0MGM4OGU3OGJkMjU2YjBmMmUyYTBmN2YyM2Q4MDg4ZmM4Y2ZmNjkyOTBkN2U5ODg2NGU5NTZmYWYwYTc2OGNkM2QyZmQ1YzZlY2NhYmIxZTg2YWFlMCIsIml2IjoiMzM4MzA0MjVkMzZhODBmMGEzMDQ4MDY1YTg2ZDZjNzdhN2NhMmVmMjU4MjQyNDljIn0="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "da3060afcf0cab7a137807eca5a787c5",
+    "assets": {
+        "4a2999c4f24122d1a8aa67ca8a8f4338": {
+            "format": "png",
+            "id": "4a2999c4f24122d1a8aa67ca8a8f4338",
+            "name": "00001.png",
+            "path": "file:C:/Users/cuongnv2/OneDrive%20-%20toshiba/Desktop/test/00001.png",
+            "size": {
+                "width": 28,
+                "height": 28
+            },
+            "state": 1,
+            "type": 1
+        },
+        "cff4198abb89423359edacfd390e68c9": {
+            "format": "jpg",
+            "id": "cff4198abb89423359edacfd390e68c9",
+            "name": "2007_000027.jpg",
+            "path": "file:C:/Users/cuongnv2/OneDrive%20-%20toshiba/Desktop/test/2007_000027.jpg",
+            "size": {
+                "width": 486,
+                "height": 500
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0038c7123a946b3f3d4bbf1ac397ed69": {
+            "format": "jpg",
+            "id": "0038c7123a946b3f3d4bbf1ac397ed69",
+            "name": "2007_000061.jpg",
+            "path": "file:C:/Users/cuongnv2/OneDrive%20-%20toshiba/Desktop/test/2007_000061.jpg",
+            "size": {
+                "width": 500,
+                "height": 333
+            },
+            "state": 2,
+            "type": 1
+        },
+        "87df0cbcabff7555c5093825038ccaf3": {
+            "format": "jpg",
+            "id": "87df0cbcabff7555c5093825038ccaf3",
+            "name": "2007_000032.jpg",
+            "path": "file:C:/Users/cuongnv2/OneDrive%20-%20toshiba/Desktop/test/2007_000032.jpg",
+            "size": {
+                "width": 500,
+                "height": 281
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8fb4577bc37883b2f7f8019aecca2ce1": {
+            "format": "jpg",
+            "id": "8fb4577bc37883b2f7f8019aecca2ce1",
+            "name": "2007_000033.jpg",
+            "path": "file:C:/Users/cuongnv2/OneDrive%20-%20toshiba/Desktop/test/2007_000033.jpg",
+            "size": {
+                "width": 500,
+                "height": 366
+            },
+            "state": 2,
+            "type": 1
+        },
+        "74e23d42258a8e4540cd174c7ba517bf": {
+            "format": "jpg",
+            "id": "74e23d42258a8e4540cd174c7ba517bf",
+            "name": "2007_000039.jpg",
+            "path": "file:C:/Users/cuongnv2/OneDrive%20-%20toshiba/Desktop/test/2007_000039.jpg",
+            "size": {
+                "width": 500,
+                "height": 375
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2cfa275f445778bdfb856178f2033052": {
+            "format": "jpg",
+            "id": "2cfa275f445778bdfb856178f2033052",
+            "name": "2007_000042.jpg",
+            "path": "file:C:/Users/cuongnv2/OneDrive%20-%20toshiba/Desktop/test/2007_000042.jpg",
+            "size": {
+                "width": 500,
+                "height": 335
+            },
+            "state": 1,
+            "type": 1
+        },
+        "0d4e01bf7639aac5e24f3172f1777f33": {
+            "format": "jpg",
+            "id": "0d4e01bf7639aac5e24f3172f1777f33",
+            "name": "2007_000170.jpg",
+            "path": "file:C:/Users/cuongnv2/OneDrive%20-%20toshiba/Desktop/test/2007_000170.jpg",
+            "size": {
+                "width": 500,
+                "height": 375
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b8121b2e84e6da1674e906375d903fb5": {
+            "format": "jpg",
+            "id": "b8121b2e84e6da1674e906375d903fb5",
+            "name": "2007_000243.jpg",
+            "path": "file:C:/Users/cuongnv2/OneDrive%20-%20toshiba/Desktop/test/2007_000243.jpg",
+            "size": {
+                "width": 500,
+                "height": 333
+            },
+            "state": 2,
+            "type": 1
+        },
+        "da3060afcf0cab7a137807eca5a787c5": {
+            "format": "jpg",
+            "id": "da3060afcf0cab7a137807eca5a787c5",
+            "name": "2007_000272.jpg",
+            "path": "file:C:/Users/cuongnv2/OneDrive%20-%20toshiba/Desktop/test/2007_000272.jpg",
+            "size": {
+                "width": 333,
+                "height": 500
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}

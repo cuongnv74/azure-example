@@ -1,0 +1,16 @@
+item {
+ id: 1
+ name: '_background_'
+}
+item {
+ id: 2
+ name: 'persion'
+}
+item {
+ id: 3
+ name: 'plan'
+}
+item {
+ id: 4
+ name: 'box'
+}
